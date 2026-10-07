@@ -1,0 +1,13 @@
+{
+  "name": "amazon-privacy-shield",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local-only Chrome extension for concealing Amazon delivery details.",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "package": "python3 scripts/package.py"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

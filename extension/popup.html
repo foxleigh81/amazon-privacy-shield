@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Amazon Privacy Shield</title><link rel="stylesheet" href="popup.css"><script src="popup.js" defer></script></head>
+<body>
+  <header><img src="icons/shield-48.png" width="38" height="38" alt=""><div><h1>Amazon Privacy Shield</h1><p>Share your screen, keep your details.</p></div></header>
+  <main>
+    <label class="toggle-row" for="enabled"><span><strong>Privacy protection</strong><span id="status" role="status">Loading…</span></span><input id="enabled" type="checkbox" role="switch" disabled></label>
+    <label class="style-label" for="style">Appearance</label>
+    <select id="style" disabled><option value="hide">Hide completely (recommended)</option><option value="blur">Blur details</option></select>
+    <p class="hint">Hides delivery labels, account greetings and saved addresses in the location picker. Applies to all supported Amazon tabs.</p>
+    <p class="note">Order, checkout and account pages can show other details. Check your recording area before you start.</p>
+    <p id="error" role="alert" hidden></p>
+  </main>
+  <footer>Local only · No tracking · No account needed</footer>
+</body>
+</html>
